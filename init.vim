@@ -8,6 +8,9 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'untitled-ai/jupyter_ascending.vim'
 	Plug 'kshenoy/vim-signature'
     Plug 'vimwiki/vimwiki'
+    Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'chaoren/vim-wordmotion'
+    Plug 'ap/vim-buftabline'
 call plug#end()
 lua require('Comment').setup()
 
