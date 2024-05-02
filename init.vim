@@ -75,6 +75,8 @@ noremap J }
 noremap K {
 nnoremap } J
 
+" newline paste
+nnoremap gp :put<CR>
 
 " move mellom tabs
 nnoremap H gT
