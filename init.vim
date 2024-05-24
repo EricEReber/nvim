@@ -36,7 +36,6 @@ set listchars=lead:·,trail:·,tab:>·
 colorscheme onehalfdark
 
 
-
 " statusline stuff
 set statusline=
 set statusline+=\ %{gitbranch#name()}\ 
@@ -68,6 +67,13 @@ nnoremap <leader>p "+p
 nnoremap <leader>y "+y
 
 nnoremap <Enter> :noh<CR>
+
+" redo
+nnoremap U <C-r>
+
+" move whole word after vim-wordmotion
+nnoremap W w
+nnoremap B b
 
 
 " schmoovement
