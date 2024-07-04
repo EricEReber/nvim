@@ -33,7 +33,7 @@ set cursorline
 set list
 set listchars=lead:·,trail:·,tab:>·
 " alternatively this is uncommented and we have light theme
-colorscheme onehalfdark
+colorscheme onehalflight
 
 
 " statusline stuff
