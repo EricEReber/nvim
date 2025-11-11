@@ -8,5 +8,4 @@ require('lazy_init')
 -- vim.api.nvim_set_hl(0, "@repeat", { fg = "#f906bf" })
 -- vim.api.nvim_set_hl(0, "@include", { fg = "#f906bf" })
 -- vim.api.nvim_set_hl(0, "@keyword", { fg = "#d91254" })
--- vim.api.nvim_set_hl(0, "@keyword.pass", { fg = "#d91254" })
 
